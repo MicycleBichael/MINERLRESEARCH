@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Level width="2">
+  <Camera x="0" y="-1" minWidth="25" maxWidth="35" />
+  <Score highScore="0" />
+  <Birds>
+    <Bird type="BirdRed"/>
+    <Bird type="BirdRed"/>
+  </Birds>
+  <Slingshot x="-12.0" y="-2.5" />
+  <GameObjects>
+    <Pig type="BasicSmall" material="" x="-1.8937" y="1.2504" rotation="0.439" />
+    <Pig type="BasicSmall" material="" x="-3.8968" y="1.2503" rotation="0.6861" />
+    <TNT type="" x="-7.284" y="0.3236" rotation="0.0" />
+    <Platform type="Platform" material="" x="-2.8836" y="0.8687" rotation="0.0" scaleX="6.2566" scaleY="0.5" />
+    <Platform type="Platform" material="" x="-4.7346" y="1.3497" rotation="90.0" scaleX="2.0" scaleY="0.5" />
+    <Platform type="Platform" material="" x="-1.0436" y="1.3594" rotation="90.0" scaleX="1.979" scaleY="0.5" />
+    <Platform type="Platform" material="" x="-2.9206" y="1.4987" rotation="90.0" scaleX="1.5158" scaleY="0.5" />
+    <Platform type="Platform" material="" x="-7.2736" y="-0.1813" rotation="0.0" scaleX="1.0" scaleY="0.5" />
+    <Block type="RectFat" material="ice" x="1.3778" y="-3.285" rotation="0" />
+    <Block type="RectTiny" material="wood" x="-6.0381" y="-3.39" rotation="0" />
+    <Block type="CircleSmall" material="stone" x="-8.0847" y="-3.275" rotation="0" />
+    <ExternalAgent type="Butterfly" material="" x="8.7955" y="-2.84" rotation="0" />
+  </GameObjects>
+</Level>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-16"?>
+<evaluation>
+  <novelty_detection_measurement step="1" measure_in_training="True" measure_in_testing="True" />
+  <trials>
+    <trial id="0" number_of_executions="1" checkpoint_time_limit="200" checkpoint_interaction_limit="200" notify_novelty="True">
+      <game_level_set mode="training" time_limit="11520" total_interaction_limit="60000" attempt_limit_per_level="1" allow_level_selection="False">
+        <game_levels level_path="./Levels\novelty_level_11\type50/Levels/00094_1_0_5_1.xml" />
+        <game_levels level_path="./Levels\novelty_level_11\type130/Levels/00022_1_0_13_1.xml" />
+        <game_levels level_path="./Levels\novelty_level_12\type30/Levels/00270_1_0_3_2.xml" />
+        <game_levels level_path="./Levels\novelty_level_12\type110/Levels/00186_1_0_11_2.xml" />
+        <game_levels level_path="./Levels\novelty_level_13\type20/Levels/00141_1_0_2_3.xml" />
+        <game_levels level_path="./Levels\novelty_level_13\type90/Levels/00135_1_0_9_3.xml" />
+        <game_levels level_path="./Levels\novelty_level_22\type40/Levels/00327_1_0_4_22.xml" />
+        <game_levels level_path="./Levels\novelty_level_22\type41/Levels/00108_1_1_4_22.xml" />
+        <game_levels level_path="./Levels\novelty_level_22\type42/Levels/00235_1_2_4_22.xml" />
+        <game_levels level_path="./Levels\novelty_level_22\type43/Levels/00306_1_3_4_22.xml" />
+        <game_levels level_path="./Levels\novelty_level_22\type44/Levels/00282_1_4_4_22.xml" />
+        <game_levels level_path="./Levels\novelty_level_22\type50/Levels/00100_1_0_5_22.xml" />
+        <game_levels level_path="./Levels\novelty_level_22\type51/Levels/00254_1_1_5_22.xml" />
+        <game_levels level_path="./Levels\novelty_level_22\type52/Levels/00116_1_2_5_22.xml" />
+        <game_levels level_path="./Levels\novelty_level_22\type53/Levels/00145_1_3_5_22.xml" />
+        <game_levels level_path="./Levels\novelty_level_22\type54/Levels/00206_1_4_5_22.xml" />
+        <game_levels level_path="./Levels\novelty_level_23\type40/Levels/00291_1_0_4_23.xml" />
+        <game_levels level_path="./Levels\novelty_level_23\type70/Levels/00151_0_0_7_23.xml" />
+        <game_levels level_path="./Levels\novelty_level_24\type60/Levels/00350_1_0_6_24.xml" />
+        <game_levels level_path="./Levels\novelty_level_24\type61/Levels/00319_1_1_6_24.xml" />
+        <game_levels level_path="./Levels\novelty_level_24\type62/Levels/00029_1_2_6_24.xml" />
+        <game_levels level_path="./Levels\novelty_level_24\type63/Levels/00090_1_3_6_24.xml" />
+        <game_levels level_path="./Levels\novelty_level_24\type64/Levels/00151_1_4_6_24.xml" />
+        <game_levels level_path="./Levels\novelty_level_24\type70/Levels/00225_0_0_7_24.xml" />
+        <game_levels level_path="./Levels\novelty_level_24\type71/Levels/00288_0_1_7_24.xml" />
+        <game_levels level_path="./Levels\novelty_level_24\type72/Levels/00245_0_2_7_24.xml" />
+        <game_levels level_path="./Levels\novelty_level_24\type73/Levels/00035_0_3_7_24.xml" />
+        <game_levels level_path="./Levels\novelty_level_24\type74/Levels/00155_0_4_7_24.xml" />
+        <game_levels level_path="./Levels\novelty_level_25\type60/Levels/00022_0_0_6_25.xml" />
+        <game_levels level_path="./Levels\novelty_level_25\type61/Levels/00317_0_1_6_25.xml" />
+        <game_levels level_path="./Levels\novelty_level_25\type62/Levels/00115_0_2_6_25.xml" />
+        <game_levels level_path="./Levels\novelty_level_25\type63/Levels/00232_0_3_6_25.xml" />
+        <game_levels level_path="./Levels\novelty_level_25\type70/Levels/00102_0_0_7_25.xml" />
+        <game_levels level_path="./Levels\novelty_level_25\type71/Levels/00167_0_1_7_25.xml" />
+        <game_levels level_path="./Levels\novelty_level_25\type72/Levels/00115_0_2_7_25.xml" />
+        <game_levels level_path="./Levels\novelty_level_25\type73/Levels/00276_0_3_7_25.xml" />
+        <game_levels level_path="./Levels\novelty_level_25\type74/Levels/00044_0_4_7_25.xml" />
+        <game_levels level_path="./Levels\novelty_level_36\type10/Levels/00095_1_0_1_36.xml" />
+        <game_levels level_path="./Levels\novelty_level_36\type11/Levels/00071_1_1_1_36.xml" />
+        <game_levels level_path="./Levels\novelty_level_36\type12/Levels/00340_1_2_1_36.xml" />
+        <game_levels level_path="./Levels\novelty_level_36\type13/Levels/00147_1_3_1_36.xml" />
+        <game_levels level_path="./Levels\novelty_level_36\type14/Levels/00030_1_4_1_36.xml" />
+        <game_levels level_path="./Levels\novelty_level_36\type20/Levels/00236_1_0_2_36.xml" />
+        <game_levels level_path="./Levels\novelty_level_36\type21/Levels/00152_2_1_2_36.xml" />
+        <game_levels level_path="./Levels\novelty_level_36\type22/Levels/00313_1_2_2_36.xml" />
+        <game_levels level_path="./Levels\novelty_level_36\type23/Levels/00185_2_3_2_36.xml" />
+        <game_levels level_path="./Levels\novelty_level_36\type24/Levels/00177_2_4_2_36.xml" />
+        <game_levels level_path="./Levels\novelty_level_37\type10/Levels/00050_1_0_1_37.xml" />
+        <game_levels level_path="./Levels\novelty_level_37\type20/Levels/00181_1_0_2_37.xml" />
+        <game_levels level_path="./Levels\novelty_level_38\type10/Levels/00111_1_0_1_38.xml" />
+        <game_levels level_path="./Levels\novelty_level_38\type11/Levels/00118_1_1_1_38.xml" />
+        <game_levels level_path="./Levels\novelty_level_38\type12/Levels/00205_1_2_1_38.xml" />
+        <game_levels level_path="./Levels\novelty_level_38\type13/Levels/00030_1_3_1_38.xml" />
+        <game_levels level_path="./Levels\novelty_level_38\type14/Levels/00310_1_4_1_38.xml" />
+        <game_levels level_path="./Levels\novelty_level_38\type20/Levels/00221_1_0_2_38.xml" />
+        <game_levels level_path="./Levels\novelty_level_38\type21/Levels/00004_1_1_2_38.xml" />
+        <game_levels level_path="./Levels\novelty_level_38\type22/Levels/00221_1_2_2_38.xml" />
+        <game_levels level_path="./Levels\novelty_level_38\type23/Levels/00045_1_3_2_38.xml" />
+        <game_levels level_path="./Levels\novelty_level_38\type24/Levels/00241_1_4_2_38.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type1150/Levels/00246_1_0_15_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type11130/Levels/00100_1_0_113_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type1230/Levels/00165_1_0_23_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type12110/Levels/00091_0_0_211_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type1320/Levels/00239_1_0_32_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type1390/Levels/00192_1_0_39_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2240/Levels/00050_0_0_224_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2241/Levels/00337_0_1_224_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2242/Levels/00088_0_2_224_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2243/Levels/00002_0_3_224_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2244/Levels/00220_0_4_224_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2250/Levels/00160_0_0_225_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2251/Levels/00194_0_1_225_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2252/Levels/00078_0_2_225_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2253/Levels/00010_0_3_225_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2254/Levels/00173_0_4_225_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2342/Levels/00350_0_2_234_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2373/Levels/00204_0_3_237_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2460/Levels/00346_0_0_246_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2461/Levels/00256_0_1_246_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2462/Levels/00111_0_2_246_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2463/Levels/00068_0_3_246_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2464/Levels/00335_0_4_246_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2470/Levels/00332_0_0_247_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2471/Levels/00253_0_1_247_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2472/Levels/00227_0_2_247_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2473/Levels/00261_0_3_247_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2474/Levels/00190_0_4_247_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2560/Levels/00143_0_0_256_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2561/Levels/00252_0_1_256_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2562/Levels/00111_0_2_256_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2563/Levels/00056_0_3_256_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2570/Levels/00002_0_0_257_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2571/Levels/00198_0_1_257_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2572/Levels/00178_0_2_257_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2573/Levels/00241_0_3_257_0.xml" />
+        <game_levels level_path="./Levels\novelty_level_0\type2574/Levels/00315_0_4_257_0.xml" />
+      </game_level_set>
+    </trial>
+  </trials>
+</evaluation>

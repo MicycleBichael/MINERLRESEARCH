@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 3756249480
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 191ed69360296007f501c3ea5cb750ec
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a80af172afba20552a1b78a91814b11a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 58
+  Script: {instanceID: 0}
+- Class: 60
+  Script: {instanceID: 0}
+- Class: 62
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1496dfd57e5ea402e9851887ca688cd3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b6284f0600fd34ba8ac9659f90dc4277, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Novelty/ConfiguredPrefabs/novel_material_0.physicsMaterial2D
+- Assets/Resources/Novelty/ConfiguredPrefabs/novel_object_0.prefab
+Dependencies: []
