@@ -1,4 +1,6 @@
 # BIRD-RESEARCH
+
+Bibtex citations for when i figure out how latex works:
 @inproceedings{ferreira_2014_a,
     author = {Lucas Ferreira and Claudio Toledo},
     title = {A Search-based Approach for Generating Angry Birds Levels},
