@@ -1,10 +1,24 @@
-import pyzelda
+import gym
+from gym.utils.play import play
 
-# create a new random dungeon with a size of 10 rooms
-dungeon = pyzelda.generate_dungeon(10)
+from griddly import GymWrapperFactory
 
-# print out the dungeon layout
-print(dungeon.layout)
+wrapper = GymWrapperFactory()
 
-# save the dungeon to a file
-dungeon.save("dungeon.txt")
+wrapper.build_gym_from_yaml('BaitTest','test.yaml',level=1)
+
+play(gym.make('GDY-BaitTest-v0'))
+
+'''
+env = gym.make('GDY-BaitTest-v0')
+env.reset()
+
+# Replace with your own control algorithm!
+for s in range(1000):
+    obs, reward, done, info = env.step(env.action_space.sample())
+    env.render() # Renders the environment from the perspective of a single player
+    env.render(observer='global') # Renders the entire environment
+
+    if done:
+        env.reset()
+        '''
