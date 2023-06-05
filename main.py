@@ -6,18 +6,18 @@ from griddly import GymWrapperFactory
 
 wrapper = GymWrapperFactory()
 
-def string_into_YAML(str, filename):
+def string_into_YAML(str, filename, index = 0):
     with open(f"{filename}.YAML", 'r') as f:
         file = yaml.safe_load(f)
     
-    file['Environment']['Levels'][0] = str
+    file['Environment']['Levels'][index] = str
 
     with open(f"{filename}.YAML", 'w') as f:
         yaml.dump(file, f)
 
 string_into_YAML("w w w w w w\nw g A . . w\nw . . . . w\nw . 1 1 . w\nw . k . . w","test")
 
-wrapper.build_gym_from_yaml('BaitTest','test.yaml', level=0)
+wrapper.build_gym_from_yaml('BaitTest','test.yaml', level=2)
 
 play(gym.make('GDY-BaitTest-v0'))
 
